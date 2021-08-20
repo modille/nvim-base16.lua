@@ -231,6 +231,7 @@ local function apply_base16_theme(theme, use_256_colorspace)
 	highlight("GitGutterChangeDelete",  theme.base0E, theme.base01, cterm0E, cterm01, nil, nil)
 
 	-- HTML highlighting
+	highlight("htmlArg",     nil, nil, nil, nil, "italic", nil)
 	highlight("htmlBold",    theme.base0A, nil, cterm0A, nil, nil, nil)
 	highlight("htmlItalic",  theme.base0E, nil, cterm0E, nil, nil, nil)
 	highlight("htmlEndTag",  theme.base05, nil, cterm05, nil, nil, nil)
